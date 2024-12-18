@@ -1,3 +1,10 @@
+# Monitoring Artifact runs in Microsoft Fabric
+
+**Description:**
+
+This Python script use the Microsoft Fabric API ready-to-use to fetch and display the latest runs details of any artifact.
+_
+
 # Automating Table Shortcuts in Microsoft Fabric for Unified Data Strategy in OneLake
 
 **Description:**
