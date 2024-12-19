@@ -5,7 +5,7 @@
 **Description:**
 
 This Python script use the Microsoft Fabric API ready-to-use to fetch and display the latest runs details of any artifact.
-
+*UPDATE 12-19-2024*: Today with new version of [semantic-link-labs 0.8.11](https://github.com/microsoft/semantic-link-labs/releases/tag/0.8.11) (thanks **Michael Kowalsky**)
 _____________________________________
 
 # Automated Tables Shortcuts.ipynb
