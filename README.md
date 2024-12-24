@@ -1,3 +1,22 @@
+# ExploringDeltaTable.ipynb
+
+### Exploring Delta Lake in Microsoft Fabric: A Relational Perspective
+
+**Description:**
+
+Time Travel in Action: Our sales table grew day by day from 2015 to April 2024, reaching 211.9 million records in the latest version. Thanks to Time Travel, we could query the data for any specific day, starting with 23,293 records in version 0 to the full dataset in version 3397. Seamless historical analysis!
+
+Optimized Storage: Using Delta Lake’s OPTIMIZE command, we compacted 3,398 small files into just 3 while keeping the total storage size nearly identical. Faster queries, same efficiency.
+
+Testing Duplicate Appends: We appended the entire dataset twice, pushing the record count to 635 million. Surprisingly, the physical storage size barely increased, proving Delta Lake’s smart handling of identical data.
+
+Unique Key Inserts: In another test, we added 211 million new records with unique OrderKey values but identical columns otherwise. The record count doubled, and while storage size increased due to unique keys, columnar compression minimized the impact.
+
+**Key Takeaway:** 
+
+For those transitioning from SQL Server to Microsoft Fabric, this new architecture powered by Delta Lake and Microsoft OneLake is a solid bet. It combines scalability, efficiency, and flexibility for modern analytics while retaining the reliability you’re used to in the relational world.
+
+
 # MonitoringArtifact.ipynb
 
 ### Monitoring Artifact runs in Microsoft Fabric
