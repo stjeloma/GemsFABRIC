@@ -15,7 +15,7 @@ Unique Key Inserts: In another test, we added 211 million new records with uniqu
 **Key Takeaway:** 
 
 For those transitioning from SQL Server to Microsoft Fabric, this new architecture powered by Delta Lake and Microsoft OneLake is a solid bet. It combines scalability, efficiency, and flexibility for modern analytics while retaining the reliability you’re used to in the relational world.
-
+_____________________________________
 
 # MonitoringArtifact.ipynb
 
