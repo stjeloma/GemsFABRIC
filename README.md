@@ -1,3 +1,20 @@
+# LakehouseBot.ipynb
+
+### Empowering Data Analysis with LangChain-OpenAI and Microsoft Fabric
+
+**Description:**
+
+In the world of modern data analysis, combining cutting-edge language models like OpenAI with the power of Spark SQL and Microsoft Fabric is a game-changer. This article demonstrates how to integrate LangChain-OpenAI into a Microsoft Fabric Notebook with PySpark, leveraging a Lakehouse to store and query data. This setup allows us to turn natural language questions into complex SQL queries seamlessly.
+
+Here’s a quick overview of what we’ll cover:
+
+1. Setting up LangChain-OpenAI with Azure.
+2. Leveraging Microsoft Fabric Notebooks with PySpark.
+3. Using a Lakehouse for storage and querying of data tables.
+4. Converting user questions into SQL queries and running them on Spark.
+5. Let’s dive into the details and see how these technologies come together to unlock powerful insights.
+
+
 # ExploringDeltaTable.ipynb
 
 ### Exploring Delta Lake in Microsoft Fabric: A Relational Perspective
